@@ -1,5 +1,7 @@
 import { Web5 } from "https://cdn.jsdelivr.net/npm/@web5/api@0.8.1/dist/browser.mjs";
+import { Web5 } from "@web5/api";
 import { API_KEY } from "./config.js";
+
 
 const loading = document.querySelector("#loading");
 const content = document.querySelector("#content");
